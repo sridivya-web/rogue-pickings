@@ -1,0 +1,149 @@
+
+
+body{
+
+         font-family: 'Montserrat', sans-serif;
+        
+        }
+
+.full-width{
+
+   	    width:1200px;
+   	    margin: 0 auto;
+   	    overflow: auto;
+   } 
+
+   .half-width{
+
+    	width:600px;
+   	    margin: 0 auto;
+   	    float:left;
+   }
+
+   .section-one,
+   .section-two,
+   .section-three{
+
+   	    width:399px; 	
+   	    margin: 0 auto;
+   	    float:left;
+   }
+
+   header h1 {
+
+      padding: 65px 0 65px 25px;
+      font-family: Montserrat;
+      font-size: 30px;
+      font-weight: bold;
+      color:black;
+}
+
+header h1 span {
+
+   color:green;
+}
+nav {
+
+      float: right; 
+      padding: 75px 0px;
+      font-size: 14px;
+}
+nav ul li  {
+
+      display: inline-block;
+      padding-left: 20px;
+      color:#77a466;
+}
+
+header nav ul li a{
+   text-transform: uppercase;
+   text-decoration: none;
+   color:#77a466;
+}
+
+.about {
+
+   margin: 0 auto;
+   clear:both; 
+}
+
+
+#about img {
+
+    height:auto;
+    float:left;
+}
+
+#about h2{
+   color:Green;
+   font-size: 18px;
+   text-transform: uppercase;
+}
+
+#about p{
+   font-size: 16px;
+   font-style: normal;
+    padding-bottom: 5px;
+  
+}
+
+
+.section-one h4 {
+
+   padding: 10px 0;
+}
+.section-one {
+   border-top:1px solid #eee;
+   }
+
+.section-two {
+   border-top:1px solid #eee;
+   border-left: 1px solid #eee;
+   border-right: 1px solid #eee;
+}
+.section-three {
+   border-top:1px solid #eee;
+}
+.section-two h4,
+.section-three h4 {
+   padding: 10px 30px;
+}
+
+.menu {
+   list-style: none;
+   padding: 0;
+}
+.menu li {
+   padding: 10px 0;
+   color:#77a466;
+}
+
+.reviews {
+   color: #333;
+   padding-left: 20px;
+   font-size: 16px;
+   line-height: 30px;
+   text-align: left;
+}
+
+.contact {
+   font-size: 16px;
+   line-height: 30px;
+   padding-left:20px;
+}
+
+footer{
+
+   border-top: 3px solid #eee;
+   height: 50px;
+   margin: 0 auto;
+   clear: both;
+   text-align: center;
+}
+
+footer span {
+   font-family: 'Galada', cursive;
+   text-transform: lowercase;
+   color: #77a466;
+   font-size: 14px;
+}
